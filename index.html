@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				font-size: 14px;
+			}
+			body{
+				background: #f2f2f2;
+			}
+			#header{
+				width: 100%;
+				height: 176px;
+			}
+			.dw{
+				width: 200px;
+				height: 28px;
+				border: none;
+				border-radius: 20px;
+				position: fixed;
+				top: 28px;
+				left: 86px;
+				text-indent: 30px;
+				outline: none;
+			}
+			.dw1{
+				width: 18px;
+				height: 18px;
+				position: fixed;
+				top: 34px;
+				left: 94px;
+			}
+			article{
+				height: 138px;
+				display: flex;
+				flex-flow: wrap;
+				align-items: center;
+				background: white;
+				margin-top: -3px;
+			}
+			article figure{
+				width: 20%;
+				text-align: center;
+			}
+			article img{
+				width: 34px;
+				height: 28px;
+			}
+			section{
+				margin-top: 10px;
+				height: 174px;
+				background: white;
+			}
+			.text{
+				height: 25px;
+				display: flex;
+				align-items: flex-end;
+				justify-content: center;
+			}
+			.text span{
+				margin-right: 10px;
+			}
+			.sect{
+				height: 76px;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				border-bottom: 1px solid #f2f2f2;
+			}
+			.sect img{
+				width: 95px;
+				height: 60px;
+			}
+			.sect div{
+				width: 240px;
+			}
+			.sect div>p:first-child{
+				color: #a3a3a3;
+			}
+			.sect div>p:last-child{
+				font-size: 12px;
+				color: #c9c9c9;
+			}
+			aside{
+				background: white;
+				margin-top: 10px;
+			}
+			aside>div:last-child{
+				height: 85px;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+			}
+			aside img{
+				width: 112px;
+				height: 62px;
+			}
+			footer{
+				width: 100%;
+				height: 48px;
+				display: flex;
+				align-items: center;
+				background: white;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+			}
+			footer figure{
+				width: 20%;
+				text-align: center;
+				
+			}
+			footer img{
+				width: 24px;
+				height: 25px;
+				background: white;
+			}
+			.active{
+				color: #f6cbcd;
+			}
+			.bgColor{
+				background: #ff5d77;
+			}
+		</style>
+	</head>
+	<body>
+		<img src="img/barent.png" id="header"/>
+		<input type="text" placeholder="搜索今日最新推荐" class="dw"/>
+		<img src="img/index_03.png" class="dw1"/>
+		<article>
+			<figure>
+				<img src="img/index_07.png"/>
+				<figcaption>美食</figcaption>
+			</figure>
+			<figure>
+				<img src="img/index_09.png"/>
+				<figcaption>水果</figcaption>
+			</figure>
+			<figure>
+				<img src="img/index_11.png"/>
+				<figcaption>干货</figcaption>
+			</figure>
+			<figure>
+				<img src="img/index_13.png"/>
+				<figcaption>营养师</figcaption>
+			</figure>
+			<figure>
+				<img src="img/index_15.png"/>
+				<figcaption>外卖</figcaption>
+			</figure>
+			<figure>
+				<img src="img/index_22.png"/>
+				<figcaption>定时</figcaption>
+			</figure>
+			<figure>
+				<img src="img/index_23.png"/>
+				<figcaption>定制菜谱</figcaption>
+			</figure>
+			<figure>
+				<img src="img/index_13.png"/>
+				<figcaption>月子餐</figcaption>
+			</figure>
+			<figure>
+				<img src="img/index_11.png"/>
+				<figcaption>甜点</figcaption>
+			</figure>
+			<figure>
+				<img src="img/index_09.png"/>
+				<figcaption>更多</figcaption>
+			</figure>
+		</article>
+		<section>
+			<div class="text"><span>—— 热门菜谱</span><span>BEST ——</span></div>
+			<div class="sect">
+				<img src="img/index_27.png"/>
+				<div>
+					<p>红烧排骨</p>
+					<p>猪排骨提供人体生理活动必须的优质蛋白质、脂肪，尤其是丰富的钙质可维护骨骼健康</p>
+				</div>
+			</div>
+			<div class="sect">
+				<img src="img/index_30.png"/>
+				<div>
+					<p>蔬菜拌面</p>
+					<p>吃500克的瓜菜，等于喝450ml高质量的水，所有瓜果蔬菜有降低血压，保护血管的作用</p>
+				</div>
+			</div>
+		</section>
+		<aside>
+			<div class="text"><span>—— 为你优选</span><span>BEST ——</span></div>
+			<div>
+				<img src="img/index_32.png"/>
+				<img src="img/index_34.png"/>
+				<img src="img/index_36.png"/>
+			</div>
+		</aside>
+		<footer>
+			<figure class="active">
+				<img src="img/footer_03.png" class="bgColor"/>
+				<figcaption>首页</figcaption>
+			</figure>
+			<figure>
+				<img src="img/footer_05.png"/>
+				<figcaption>发现</figcaption>
+			</figure>
+			<figure>
+				<img src="img/footer_07.png"/>
+				<figcaption>视频</figcaption>
+			</figure>
+			<figure>
+				<img src="img/footer_09.png"/>
+				<figcaption>社区</figcaption>
+			</figure>
+			<figure>
+				<img src="img/footer_11.png"/>
+				<figcaption>我的</figcaption>
+			</figure>
+		</footer>
+	</body>
+</html>
